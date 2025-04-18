@@ -27,7 +27,7 @@ async def on_ready():
 async def help(ctx):
     """Command: Lists all available bot commands."""
     help_message = (
-        "**🤖 CuseBot Commands:**\n"
+        "**🤖 Bug Commands:**\n"
         "`!help` – Show this help message\n"
         "`!resume` – Link to engineering resume resources\n"
         "`!events` – See upcoming club events\n"
