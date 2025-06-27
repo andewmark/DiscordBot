@@ -41,6 +41,7 @@ def post_to_discord(message: str, webhook_url: str):
     if not webhook_url:
         raise ValueError("DISCORD_WEBHOOK_URL environment variable is not set")
     payload = {"content": message}
+    print(payload)
     response = requests.post(webhook_url, json=payload)
     response.raise_for_status()
 
