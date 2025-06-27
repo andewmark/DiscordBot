@@ -164,4 +164,6 @@ def main():
         notify_comment_mention(comment_body, context_obj, user_map, webhook_url)
     else: 
         print("Nothing to Notify")
-    
+
+if __name__ == "__main__":
+    main()
